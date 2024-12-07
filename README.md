@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**AirbusQuiz**
 
-## Getting Started
+AirbusQuiz is a Next.js quiz app designed to help maintenance engineering students prepare for Airbus license exams. 
+It combines a modern, responsive design with powerful tools like Firebase for data storage and authentication.
 
-First, run the development server:
+**Features**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+  *Interactive Quizzes: Engage in topic-based quizzes tailored for Airbus maintenance exam preparation.
+  
+  *Firebase Integration:
+  *Firestore: Securely store quiz data and user progress.
+  *Authentication: Manage user accounts with Firebase Authentication.
+  
+  *Responsive Design: Optimized for all devices with Tailwind CSS.
+  *Dark Mode Support: Easily toggle between light and dark themes using next-themes.
+  
+  *Email Integration: Send quiz-related emails using emailjs-com.
+  
+  *Animations: Smooth UI interactions powered by framer-motion.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Tech Stack**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Next.js (v15.0.2): React-based framework for server-side rendering and static generation.
+Tailwind CSS (v3.4.1): Utility-first CSS framework for styling.
+Firebase (v11.0.2): Cloud platform for authentication and database solutions.
+Framer Motion (v11.11.17): Animation library for React.
+React Icons: Add scalable vector icons to the app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+**Customization**
 
-To learn more about Next.js, take a look at the following resources:
+Theming
+This project uses next-themes to handle light and dark modes. Update your Tailwind configuration or theme files for further customization.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Animations
+Use framer-motion for custom animations. Refer to the Framer Motion Documentation for examples and guides.
